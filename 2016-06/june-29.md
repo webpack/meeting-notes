@@ -19,7 +19,7 @@
 #### Documentation
 
 * Tobias worked on an [outline](https://github.com/webpack/webpack.io/commit/18b7f14d686b76775d1b5de763423d121bc28f0b) that could serve as a foundation for webpack/webpack.io. 
-* Had one or two voluneers express interest in working on documentation however we will want to have a handful of folks working on documentation. (Because there is a lot to document).
+* Had one or two volunteers express interest in working on documentation however we will want to have a handful of folks working on documentation. (Because there is a lot to document).
 * Suggestions were made to create individual issues for each of the "topics or features" for webpack so that we can easily track our progress. 
 * Sean is still looking for a company who specializes in content creation etc. to help donate their efforts if possible.
 * We will start to tag issues in github that we have answered/found useful for people with the `documentation` tag so that we can address them in the future documentation
