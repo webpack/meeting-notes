@@ -55,7 +55,7 @@
 * Backport --env
 * Create a medium publication (tobias/sean)
 * Create a blog post (tobias/sean)
-* Find some more people to invite to maintain the loaders and plugins or decide to depricate unused ones: (all)
+* Find some more people to invite to maintain the loaders and plugins or decide to deprecate unused ones: (all)
   * karma-webpack
   * coffee-loader
   * component-webpack-plugin
@@ -69,15 +69,15 @@
   * json5-loader
   * coffee-redux-loader
   * coverjs-loader
-* Work on Standardized Ts loader/plugins if authors are willing CC @jbrantly&@s-panferov (Sean)
-* Create 2.0 Typings team to work with documentation team and changes to accuratley be reflected in the typedefs (Sean) 
+* Work on Standardized TypeScript loader/plugins if authors are willing CC @jbrantly & @s-panferov (Sean)
+* Create 2.0 Typings team to work with documentation team and changes to accurately be reflected in the typedefs (Sean) 
 
 ### Common Questions
 
-1. How does one do target webpack builds? 
-Using tools like [parallel-webpack](http://tech.trivago.com/2015/12/15/parallel-webpack/). There is a specific section on targeted builds. 
+1. How does one do targeted webpack builds? 
+Targeted webpack builds mean that you have multiple builds created for different devices, browser and support. Using tools like [parallel-webpack](http://tech.trivago.com/2015/12/15/parallel-webpack/) allows you to build multiple configurations in paralell. The example on [parallel-webpack](https://github.com/trivago/parallel-webpack#variants-example)'s github repository is a great example.
 
-2. How does LoaderOptionsPlugin replace UglifyJsPlugin for minification. 
-The LoaderOptionsPlugin delegates the minification and optimization to the loader itself. Therefore if the loader doesn't implement the properties (for 2.x) then nothing will happen. https://gist.github.com/sokra/27b24881210b56bbaff7#loader-options--minimize 
+2. How does `LoaderOptionsPlugin` replace `UglifyJsPlugin` for minification. 
+The `LoaderOptionsPlugin` delegates the minification and optimization to the loader itself. Therefore if the loader doesn't implement the properties (for 2.x) then nothing will happen. https://gist.github.com/sokra/27b24881210b56bbaff7#loader-options--minimize 
 
 Please feel free to discuss these notes in the [corresponding issue](https://github.com/webpack/meeting-notes/pulls/2).
