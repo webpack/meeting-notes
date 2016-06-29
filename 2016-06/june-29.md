@@ -1,4 +1,4 @@
-## June 29 ([discuss](https://github.com/webpack/meeting-notes/pulls/1))
+## June 29 ([discuss](https://github.com/webpack/meeting-notes/pulls/2))
 
 ### Attendees
 
@@ -80,4 +80,4 @@ Using tools like [parallel-webpack](http://tech.trivago.com/2015/12/15/parallel-
 2. How does LoaderOptionsPlugin replace UglifyJsPlugin for minification. 
 The LoaderOptionsPlugin delegates the minification and optimization to the loader itself. Therefore if the loader doesn't implement the properties (for 2.x) then nothing will happen. https://gist.github.com/sokra/27b24881210b56bbaff7#loader-options--minimize 
 
-Please feel free to discuss these notes in the [corresponding issue](https://github.com/webpack/meeting-notes/pulls/1).
+Please feel free to discuss these notes in the [corresponding issue](https://github.com/webpack/meeting-notes/pulls/2).
