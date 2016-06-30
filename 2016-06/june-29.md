@@ -27,7 +27,7 @@
 #### Releasing Webpack 2.x Official
 
 * Sean has created a filter of [current reported issues](https://github.com/webpack/webpack/issues?q=is%3Aopen+is%3Aissue+label%3Abug+label%3Awebpack-2+sort%3Acreated-asc+label%3A%22in+planning%22) that Tobias is going to look through to see if it has been already fixed, or if it is by design/not a bug, etc. 
-* We agreed that a 2.x RC/Official Release milestone will be created that will assist us in tracking what remains. This will propose somewhat of a challenege because there is webpack/webpack-dev-server and other repo's to ensure are up to date to any breaking changes. 
+* We agreed that a 2.x RC/Official Release milestone will be created that will assist us in tracking what remains. This will propose somewhat of a challenge because there is webpack/webpack-dev-server and other repo's to ensure are up to date to any breaking changes. 
 * Also working on PR Issues, support for problems from @gaearon and @gdi2290 (Strong representatives from the Angular and React communities).
 * In the end Documentation for [webpack/webpack.io](http://github.com/webpack/webpack.io) will be the **critical blocker**. Otherwise, only easy/small features/bugs remain.
 * Backporting the --env `function` style webpack config definition so that transition is easier for users can use the feature if desired going from webpack 1.x to webpack 2.x. 
@@ -39,7 +39,7 @@
 
 #### Public awareness
 
-* In addition to adding the meeting-notes as public Tobias brought up the idea of a Medium publication that all of the core team memebers can post on. The 'voice' of webpack tailored by the community's needs and wants. The Content will contain: 
+* In addition to adding the meeting-notes as public Tobias brought up the idea of a Medium publication that all of the core team members can post on. The 'voice' of webpack tailored by the community's needs and wants. The Content will contain: 
   * Looking for maintainers for some repos
   * Webpack 2 release plan
   * Documentation plan
@@ -75,7 +75,7 @@
 ### Common Questions
 
 1. How does one do targeted webpack builds? 
-Targeted webpack builds mean that you have multiple builds created for different devices, browser and support. Using tools like [parallel-webpack](http://tech.trivago.com/2015/12/15/parallel-webpack/) allows you to build multiple configurations in paralell. The example on [parallel-webpack](https://github.com/trivago/parallel-webpack#variants-example)'s github repository is a great example.
+Targeted webpack builds mean that you have multiple builds created for different devices, browser and support. Using tools like [parallel-webpack](http://tech.trivago.com/2015/12/15/parallel-webpack/) allows you to build multiple configurations in parallel. The example on [parallel-webpack](https://github.com/trivago/parallel-webpack#variants-example)'s github repository is a great example.
 
 2. How does `LoaderOptionsPlugin` replace `UglifyJsPlugin` for minification. 
 The `LoaderOptionsPlugin` delegates the minification and optimization to the loader itself. Therefore if the loader doesn't implement the properties (for 2.x) then nothing will happen. https://gist.github.com/sokra/27b24881210b56bbaff7#loader-options--minimize 
