@@ -10,7 +10,13 @@ The repo format is inspired by [React Core Notes](https://github.com/reactjs/cor
 
 ## Recent Notes
 
+###2016
+
 #### June
 
 * [June 24th](https://github.com/webpack/meeting-notes/blob/master/2016-06/june-24.md)
 * [June 29th](https://github.com/webpack/meeting-notes/blob/master/2016-06/june-29.md)
+
+#### June
+
+* [June 8th](https://github.com/webpack/meeting-notes/blob/master/2016-07/july-08.md)
