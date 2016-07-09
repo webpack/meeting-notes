@@ -1,4 +1,4 @@
-## July 8 ([discuss](https://github.com/webpack/meeting-notes/pull/3))
+## July 8 ([discuss](https://github.com/webpack/meeting-notes/pull/4))
 
 ### Attendees
 
@@ -60,4 +60,4 @@
 
 
 -----------
-Please feel free to discuss these notes in the [corresponding pull request](https://github.com/webpack/meeting-notes/pull/3).
+Please feel free to discuss these notes in the [corresponding pull request](https://github.com/webpack/meeting-notes/pull/4).
