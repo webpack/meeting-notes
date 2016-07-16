@@ -6,6 +6,7 @@
 * [Sean Larkin](http://github.com/thelarkinn)
 * [Juho Vepsäläinen](http://github.com/bebraw)
 * [Jesus Rodriguez](https://github.com/foxandxss)
+* [Tobias Koppers](https://github.com/sokra)
 
 #### Attendees Notes
 
