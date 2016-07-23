@@ -20,3 +20,4 @@ The repo format is inspired by [React Core Notes](https://github.com/reactjs/cor
 #### July
 
 * [July 8th](2016-07/july-08.md)
+* [July 15th](2016-07/july-015.md)
