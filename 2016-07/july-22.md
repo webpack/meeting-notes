@@ -62,7 +62,7 @@ Spencer was in attendance to take meeting notes.
 * Would this be a plugin?
   * Might be better as a library?
   * Yes, it would be, and potentially expose the entry points and the needed 'public modules'. 
-  * Would be a libraryTarget setting. IE: `libraryTarget: 'systemjs`
+  * Would be a libraryTarget setting. IE: `libraryTarget: 'systemjs'`
   * Probably an underlying plugin will be written
 
 ###Takeaways  
