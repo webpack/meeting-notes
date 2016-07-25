@@ -28,7 +28,6 @@ Spencer was in attendance to take meeting notes.
   * I18n-webpack-plugin: **ecutdavid**
   * Grunt-webpack **danez**
   * Karma-webpack: **mikaak**
-  * ESlint-loader: (Obsolete)?
   * Component-webpack-plugin (deprecated)
     * Tobias thinks we should consider deprecating and leaving this plugin alone. 
   * Compression-webpack-plugin
