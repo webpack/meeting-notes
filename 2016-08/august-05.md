@@ -1,4 +1,4 @@
-## July 29 ([discuss](https://github.com/webpack/meeting-notes/pull/8))
+## August 5 ([discuss](https://github.com/webpack/meeting-notes/pull/8))
 
 ### Attendees
 
