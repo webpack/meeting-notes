@@ -1,4 +1,4 @@
-## August 24 ([discuss](https://github.com/webpack/meeting-notes/pull/9))
+## August 24 ([discuss](https://github.com/webpack/meeting-notes/pull/11))
 
 ### Attendees
 
@@ -40,4 +40,4 @@ Johannes is in Iceland at JSConf Iceland (Good luck!), and Juho was unable to ma
 * **Documentation:** We need our milestone completed. Completing this goal is crucial for the community. 
 
 -----------
-Please feel free to discuss these notes in the [corresponding issue](https://github.com/webpack/meeting-notes/pull/9).
+Please feel free to discuss these notes in the [corresponding issue](https://github.com/webpack/meeting-notes/pull/11).
