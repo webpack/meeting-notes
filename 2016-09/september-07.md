@@ -14,9 +14,7 @@
 * Juho: Migrated a significant grouping of issues labeled `question` or `documentation` from [webpack/webpack](github.com/webpack/webpack) over to the [new docs page](github.com/webpack/webpack.js.org).
 
 * PR's are now in for adding helpful documentation linters and plugins
-	* proselint: will help with grammar and has settings for rules etc.
-	
-	* [#96](https://github.com/webpack/webpack.js.org/pull/96)
+	* proselint: will help with grammar and has settings for rules etc. [#96](https://github.com/webpack/webpack.js.org/pull/96)
 
 	* ESLINT module for codeblocks for markdown documents. This will ensure that our code examples are consistent across documents etc. [MERGED #97](https://github.com/webpack/webpack.js.org/pull/97)
 
