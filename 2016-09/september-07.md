@@ -1,4 +1,4 @@
-## August 31 ([discuss](https://github.com/webpack/meeting-notes/pull/13))
+## September 7 ([discuss](https://github.com/webpack/meeting-notes/pull/13))
 
 ### Attendees
 
@@ -73,6 +73,13 @@
 		* store dependencies, hash of dependencies and source in disk cache (edited)
 		* alternativly it could use loader-runner to run the remaining loaders. This would allow to cache more data: emitted files, errors, warnings. This would not be possible in the normal loader chain.
 	* Issues will be created for each of these missing features. (Sean).
+	* Additionally, with these changes we will plan on deprecating the following: 
+		* We are planing to deprecate all properties and methods that make a multi-thread compilation impossible, that is:
+			* No synchronous APIs (resolveSync)
+			* No shared state (_compiler)
+
+		* We will provide deprecation warnings for version 2, that this will be deprecated in v3 
+			
 ### Takeaways  
 * Documentation
 
