@@ -39,13 +39,13 @@
 * Johannes had prepared some simple mock ups for a new logo design. We discussed a few color options, and that we could poll the community however, we want to iterate on the design that we feel expresses our goals, etc.
 
 #### Issues/Defects 
-**[#1792](https://github.com/webpack/webpack/issues/1729)**: 
+* **[#1792](https://github.com/webpack/webpack/issues/1729)**: 
 	* This issue was brought up because it appears that our `node` target has been functioning this way for over a year with not one report until now. Tobias: "webpack should be identical to node in the `node` target". 
 	
 	* By using `module` like this, webpack's runtime would take a significant hit. (`try-finally` bails out the V8 compiler [and its called for every `require()` call] )
 	* We will have to investigate the `node.js` repo and see if there is anyone coming across this issue already with useful knowledge. Otherwise we will create an edge-case target so that this can be used the proper way. We will discuss this more in detail next meeting. 
 
-**[#250](https://github.com/webpack/webpack/issues/250#issuecomment-199602293)**: 
+* **[#250](https://github.com/webpack/webpack/issues/250#issuecomment-199602293)**: 
 	* Johannes raised this issue because it is notable that some scaled builds take long to finish (even if it is 2-3 minutes). Johannes mentioned [`HappyPack`](https://github.com/amireh/happypack) is a common package that allows you to multithread the loader process. However there are struggles with the way that "hacky" loaders work that make `HappyPack` impossible for `awesome-typescript-loader` and `ts-loader` to implement together. 
 	* Sean describes this "hackyness" is when a loader accesses `compiler` properties from `this` such as `this._compiler` to execute plugin based functionality. Needs to be deprecated.
 	* Tobias mentions that maybe we can add functionality to the loader API to allow this to work. Sean explained that the reason these TS loaders need plugin access is because it needs to defer typechecking until the `compilation` is finished. 
