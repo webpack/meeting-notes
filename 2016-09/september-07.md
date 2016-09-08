@@ -14,9 +14,14 @@
 * Juho: Migrated a significant grouping of issues labeled `question` or `documentation` from [webpack/webpack](github.com/webpack/webpack) over to the [new docs page](github.com/webpack/webpack.js.org).
 
 * PR's are now in for adding helpful documentation linters and plugins
-	* proselint: will help with grammar and has settings for rules etc. [#96](https://github.com/webpack/webpack.js.org/pull/96)
+	* proselint: will help with grammar and has settings for rules etc.
+	
+	* [#96](https://github.com/webpack/webpack.js.org/pull/96)
+
 	* ESLINT module for codeblocks for markdown documents. This will ensure that our code examples are consistent across documents etc. [MERGED #97](https://github.com/webpack/webpack.js.org/pull/97)
+
 	* Juho also suggested we look into `alex` which works with proselint on spelling and linting specific words based on topic (offensive, abbreviations, etc.)
+
 	* Don't want linting too strict, just enough to provide, autoformatting, and eliminate the number of round of reviews for PR's.
 
 * The topic of Cont. Deployment came up for our documentation. We veiw some other pages and it apeard Codeship is a popular option as well as Travis but requires more work. An issue will be created in the docs repo. 
