@@ -24,7 +24,7 @@
 
 	* Don't want linting too strict, just enough to provide, autoformatting, and eliminate the number of round of reviews for PR's.
 
-* The topic of Cont. Deployment came up for our documentation. We veiw some other pages and it apeard Codeship is a popular option as well as Travis but requires more work. An issue will be created in the docs repo. 
+* The topic of Cont. Deployment came up for our documentation. We viewed some other pages and it apeard Codeship is a popular option as well as Travis but requires more work. An issue will be created in the docs repo. 
 
 #### Publication Updates
 * Upon feedback, we discovered that Housing.com's engineering team had published an excellent article on medium about their success's with webpack. Sean suggested that we open up the option for authors who are interested, to post success stories and awesome information under our publication (after review). The team decided this would be fine since we have been slacking on our medium publication as of late. 
