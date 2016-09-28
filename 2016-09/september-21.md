@@ -31,7 +31,7 @@
 
 * Sean whipped up a proof of concept plugin: [AnalyticsWebpackPlugin](https://github.com/thelarkinn/AnalyticsWebpackPlugin) for us to use in the future in core. 
 
-* When we get near to releasing, maybe we want to start collecting usage statistics in hopes to collecting useful data to help drive the future of usability. Fine tuning from the community is always welcomed. The repo can be a proof of concept before we consider merging it to core.
+* When we get near to releasing, maybe we want to start collecting usage statistics in hopes to collecting useful data for target documentation, support, and more. Fine tuning from the community is always welcomed. The repo can be a proof of concept before we consider merging it to core.
 
 #### Project Boards
 
