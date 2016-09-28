@@ -29,3 +29,7 @@ The repo format is inspired by [React Core Notes](https://github.com/reactjs/cor
 * [August 5th](2016-08/august-05.md)
 * [August 24th](2016-08/august-24.md)
 * [August 31st](2016-08/august-31.md)
+
+#### September
+
+* [September 7th](2016-09/september-07.md)
