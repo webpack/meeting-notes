@@ -25,7 +25,7 @@
 
     * Concerns? 
       
-      * Sean: Antwar is custom tailored/made for docs page. Switching to something else and relying on specific changes for our docs page: Could they be timley and not affect other tools relying on Gatsby? Things to discuss when we finish milestone. 
+      * Sean: Antwar is custom tailored/made for docs page. Switching to something else and relying on specific changes for our docs page: Could they be timely and not affect other tools relying on Gatsby? Things to discuss when we finish milestone. 
         
       * Johannes: Timing is bad to accept for now (we do not want to stop current momentum we have on content creation).
 
@@ -33,7 +33,7 @@
 
     * The entire team agreed to communicate this PR split as well as freezing the underlying framework until we reach our documentation milestone. 
 
-  * Documentation milstone now [57%!!!!](https://github.com/webpack/webpack.js.org/milestone/1)
+  * Documentation milestone now [57%!!!!](https://github.com/webpack/webpack.js.org/milestone/1)
 
   * Add more love to the Migration from 1 to 2 doc. Should include as much as possible from the original ["Whats new in webpack 2"](https://gist.github.com/sokra/27b24881210b56bbaff7) doc that Tobias authored as there is good content there. 
 
