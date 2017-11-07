@@ -10,7 +10,7 @@ The repo format is inspired by [React Core Notes](https://github.com/reactjs/cor
 
 ## Recent Notes
 
-###2016
+### 2016
 
 #### June
 
